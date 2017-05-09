@@ -25,15 +25,4 @@ class FinderTest extends \PHPUnit_Framework_TestCase
         );
     }
 
-    public function testOk2() {
-        //$this->assertTrue(true);
-
-        $a = new Finder("bananne",["kiwi","banane"]);
-        //echo $a->first();
-
-        $this->assertEquals(
-            'banane',
-            $a->first()
-        );
-    }
 }
